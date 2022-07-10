@@ -114,7 +114,7 @@ class Video:
 w_out = 800
 h_out = 450
 video = Video()
-video.confVideo('video/video_negro.MP4', "nombre",1500,900)
+video.confVideo('video/video_negro.mp4', "nombre",1500,900)
 video.setImgOut('res',w_out,h_out)
 video.kernel_dilatacion = 9
 video.setHomografia([[36,496],[355,496],[355,661],[36,661]],[[0,0],[w_out,0],[w_out,h_out],[0,h_out]])
